@@ -35,7 +35,7 @@ int main(int argc, char *argv[]){
     Document doc;
     const char *doc_name = "main_document";
     
-     /*Upon starting execution your program should initialize a single document with the name ”main document”,
+     /*Program  initialize a single document with the name ”main document”,
     and perform operations on that document as instructed by the commands the program reads.*/  
 
    if (init_document(&doc, doc_name) == FAILURE) {
